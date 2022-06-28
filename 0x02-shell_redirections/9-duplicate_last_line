@@ -1,2 +1,3 @@
 #!/bin/bash
-tail -n iacta >> iacta
+tail -n 1 iacta >> iacta >> 9-duplicate_last_line
+echo tail -n 1 iacta
